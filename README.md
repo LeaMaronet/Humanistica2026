@@ -34,7 +34,7 @@ Léa Maronet
 
 This GitHub repository contains the code associated with the poster presented at the Distam workshop of the [Humanistica 2026](https://humanistica2026.sciencesconf.org/) conference, held at EPITA (Paris) on May 18, 2026.
 
-The poster introduces, as a case study, a processing pipeline developed במסגרת a [PhD project](https://theses.fr/s370977) focused on the iconographic analysis of a group of bas-relief motifs frequently depicted in ancient India (3<sup>rd</sup> century BCE – 3<sup>rd</sup> century CE): [https://theses.fr/s370977](https://theses.fr/s370977).
+The poster introduces, as a case study, a processing pipeline developed במסגרת a [PhD project](https://theses.fr/s370977) focused on the iconographic analysis of a group of bas-relief motifs frequently depicted in ancient India (3<sup>rd</sup> century BCE – 3<sup>rd</sup> century CE).
 It proposes a computational methodology addressing the challenge of scaling iconographic analysis, namely how to automatically process large visual corpora while preserving the level of analytical granularity required for meaningful motif interpretation.
 
 ## Structure of the repository
