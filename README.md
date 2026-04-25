@@ -14,14 +14,13 @@ Il propose une méthodologie de traitement computationnelle visant à répondre 
 [Humanistica2026]/
 │
 ├── 📂 data/            #Contient les données du projet
-│
-├── 📂 images/          #Contient quelques exemples d'images traitées, parmi celles libre de droit
+│   └── 📂 images/      #Contient quelques exemples d'images traitées, parmi celles libre de droit      
 │
 ├── 📂 notebooks/       #Contient l'ensemble des notebooks de traitement
 │
 ├── 📂 outputs/         #Continent l'ensemble des sorties post-traitement
-│   ├── clustering      #Sorties du clustering  
-│   └── etiquetage      #Sortie de l'étiquetage automatique
+│   ├── 📂 clustering   #Sorties du clustering  
+│   └── 📂 labeling     #Sortie de la catégorisation automatique
 │
 ├── poster.pdf        
 └── README.md
@@ -34,7 +33,7 @@ Léa Maronet
 
 This GitHub repository contains the code associated with the poster presented at the Distam workshop of the [Humanistica 2026](https://humanistica2026.sciencesconf.org/) conference, held at EPITA (Paris) on May 18, 2026.
 
-The poster introduces, as a case study, a processing pipeline developed במסגרת a [PhD project](https://theses.fr/s370977) focused on the iconographic analysis of a group of bas-relief motifs frequently depicted in ancient India (3<sup>rd</sup> century BCE – 3<sup>rd</sup> century CE).
+The poster introduces, as a case study, a processing pipeline developed during a [PhD project](https://theses.fr/s370977) focused on the iconographic analysis of a group of bas-relief motifs frequently depicted in ancient India (3<sup>rd</sup> century BCE – 3<sup>rd</sup> century CE).
 It proposes a computational methodology addressing the challenge of scaling iconographic analysis, namely how to automatically process large visual corpora while preserving the level of analytical granularity required for meaningful motif interpretation.
 
 ## Structure of the repository
@@ -43,14 +42,13 @@ It proposes a computational methodology addressing the challenge of scaling icon
 [Humanistica2026]/
 │
 ├── 📂 data/            # Contains project data
-│
-├── 📂 images/          # Contains a selection of processed images (limited to those with open access rights)
+│   └── 📂 images/      # Contains a selection of processed images (limited to those with open access rights)
 │
 ├── 📂 notebooks/       # Contains all processing notebooks
 │
 ├── 📂 outputs/         # Contains all post-processing outputs
-│   ├── clustering      # Clustering outputs  
-│   └── labeling        # Automatic labeling outputs
+│   ├── 📂 clustering   # Clustering outputs  
+│   └── 📂 labeling     # Automatic labeling outputs
 │
 ├── poster.pdf        
 └── README.md
