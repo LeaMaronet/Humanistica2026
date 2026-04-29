@@ -36,8 +36,10 @@ Les notebooks doivent être exécutés dans l'ordre :
 │   ├── 📊 corpusMasques.csv                #Base de données intermédiaire organisée par motifs avec leurs métadonnées
 │   └── 📊 corpusMasquesClusters.csv        #Base de données intermédiaire avec les clusters
 │
+├── LICENSE  
 ├── poster.pdf        
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ---
@@ -78,7 +80,9 @@ The notebooks must be executed in the following order:
 │   ├── 📊 corpusMasques.csv                #Intermediate database organized by motifs with their metadata
 │   └── 📊 corpusMasquesClusters.csv        #Intermediate database with clusters
 │ 
+├── LICENSE  
 ├── poster.pdf        
-└── README.md
+├── README.md
+└── requirements.txt
 
 ```
