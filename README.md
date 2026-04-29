@@ -32,7 +32,9 @@ Les notebooks doivent être exécutés dans l'ordre :
 ├── 📂 outputs/                             #Contient l'ensemble des sorties post-traitement
 │   ├── 📂 clustering/                      #Contient les sorties da la clusterisation 
 │   ├── 📂 categorisation/                  #Contient les sorties de la catégorisation automatique
-│   └── 📊 corpusMasques.csv                #Base de données finale avec la description affinée des motifs
+│   ├── 📊 corpusFinal.csv                  #Base de données finale avec la description affinée des motifs
+│   ├── 📊 corpusMasques.csv                #Base de données intermédiaire organisée par motifs avec leurs métadonnées
+│   └── 📊 corpusMasquesClusters.csv        #Base de données intermédiaire avec les clusters
 │
 ├── poster.pdf        
 └── README.md
@@ -72,8 +74,10 @@ The notebooks must be executed in the following order:
 ├── 📂 outputs/                             #Contains all post-processing outputs
 │   ├── 📂 clustering/                      #Contains clustering outputs
 │   ├── 📂 categorisation/                  #Contains outputs from automatic categorization
-│   └── 📊 corpusMasques.csv                #Final database with refined motif descriptions
-│
+│   ├── 📊 corpusFinal.csv                  #Final database with refined motif descriptions
+│   ├── 📊 corpusMasques.csv                #Intermediate database organized by motifs with their metadata
+│   └── 📊 corpusMasquesClusters.csv        #Intermediate database with clusters
+│ 
 ├── poster.pdf        
 └── README.md
 
